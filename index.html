@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sorriso Saudável | Clínica Odontológica</title>
+<meta name="description" content="Clínica odontológica com tecnologia e cuidado em cada sorriso. Agende sua avaliação.">
+<meta property="og:title" content="Sorriso Saudável | Clínica Odontológica">
+<link rel="canonical" href="https://www.sorrisosaudavel.com.br/"><meta property="og:url" content="https://www.sorrisosaudavel.com.br/"><meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dentist","name":"Sorriso Saudável Clínica Odontológica","telephone":"+55 11 90000-0000","address":{"@type":"PostalAddress","streetAddress":"Rua Exemplo, 123","addressLocality":"Cidade","addressRegion":"UF"}}</script>
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script></head>
+<body>
+<header id="hd"><div class="w"><nav aria-label="Principal">
+<a class="logo" href="#inicio">SORRISO <b>SAUDÁVEL</b></a>
+<button class="burger" id="bg" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i><i></i></button>
+<div class="menu" id="mn"><a href="#sobre">Sobre</a><a href="#tratamentos">Tratamentos</a><a href="#equipe">Equipe</a><a href="#depoimentos">Depoimentos</a><a href="#blog">Blog</a><a href="#contato">Contato</a><a class="btn p" href="#agendar" style="padding:10px 20px">Agendar consulta</a></div>
+</nav></div></header>
+
+<main>
+<section class="hero" id="inicio"><div class="w">
+<div>
+<span class="seal">Dra. Helena Martins · CRO-[UF] [NÚMERO]</span>
+<h1>Tecnologia e cuidado em cada sorriso.</h1>
+<p>Atendimento acolhedor, planejamento individual e um ambiente pensado para o seu conforto.</p>
+<div class="cta"><a class="btn p" href="#agendar">Agendar online</a><a class="btn" href="https://wa.me/5511900000000" rel="noopener">WhatsApp</a></div>
+<div class="stats"><div><b data-n="12">0</b><span>anos de experiência</span></div><div><b data-n="5000">0</b><span>pacientes atendidos</span></div></div>
+</div>
+<canvas id="c3" style="display:none;width:100%;max-width:380px;aspect-ratio:1;margin:auto" role="img" aria-label="Dente 3D sorrindo"></canvas><svg id="tooth" viewBox="0 0 200 240" role="img" aria-label="Ilustração de um dente sorrindo">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#e9dcc3"/></linearGradient></defs>
+<path d="M55 30c-30 0-45 25-40 60 4 28 14 40 18 70 3 25 8 55 22 55 12 0 12-35 25-35s13 35 25 35c14 0 19-30 22-55 4-30 14-42 18-70 5-35-10-60-40-60-14 0-20 6-30 6S69 30 55 30z" fill="url(#g)" stroke="#d9a85b" stroke-width="4"/>
+<circle cx="78" cy="95" r="6" fill="#1a1306"/><circle cx="122" cy="95" r="6" fill="#1a1306"/>
+<path d="M78 125q22 22 44 0" fill="none" stroke="#1a1306" stroke-width="5" stroke-linecap="round"/>
+</svg>
+</div></section>
+
+<section id="sobre"><div class="w two">
+<div class="rv"><span class="eyebrow">Sobre a clínica</span><h2>Mais que dentes, entregamos confiança.</h2>
+<p class="sub">Nossa missão é cuidar da saúde bucal com ética, clareza e acolhimento. Valores: respeito ao paciente, transparência e atualização constante.</p></div>
+<div class="rv"><div class="gal car" id="car"><img src="assets/img/clinica-1.jpg" alt="Recepção da clínica com painel escuro e logotipo Sorriso Saudável" loading="lazy"><img src="assets/img/clinica-2.jpg" alt="Consultório com cadeira odontológica e tela de radiografia" loading="lazy"><img src="assets/img/clinica-3.jpg" alt="Sala de espera acolhedora com sofá e iluminação suave" loading="lazy"><img src="assets/img/clinica-4.jpg" alt="Sala da direção com mesa de madeira e logotipo na parede" loading="lazy"><img src="assets/img/clinica-5.jpg" alt="Corredor de acesso aos consultórios" loading="lazy"><button class="cb" data-d="-1" aria-label="Foto anterior">‹</button><button class="cb r" data-d="1" aria-label="Próxima foto">›</button></div><p class="cap" id="cc"></p></div>
+</div></section>
+
+<section id="tratamentos" style="background:var(--bg2)"><div class="w">
+<span class="eyebrow">Tratamentos</span><h2>Como podemos cuidar de você</h2>
+<p class="sub">Toque em um card para entender cada tratamento em linguagem simples. A indicação depende de avaliação presencial.</p>
+<div class="grid" id="tg"></div></div></section>
+
+<section><div class="w"><span class="eyebrow">Casos</span><h2>Antes e depois</h2>
+<div class="ba rv" id="ba"><div class="a"><img src="assets/img/antes.jpg" alt="Sorriso antes do clareamento (imagem ilustrativa)"></div><div class="d" id="bd"><img src="assets/img/depois.jpg" alt="Sorriso depois do clareamento (imagem ilustrativa)"></div><span class="lb l">Antes</span><span class="lb r">Depois</span><span class="h" id="bh"><b>‹ ›</b></span><input type="range" min="0" max="100" value="50" id="br" aria-label="Comparar antes e depois"></div>
+<div class="slots" style="margin-top:14px"><label class="btn" style="margin:0">Foto antes<input type="file" accept="image/*" id="fa" hidden></label><label class="btn" style="margin:0">Foto depois<input type="file" accept="image/*" id="fb2" hidden></label></div><p class="cap">Imagem ilustrativa: não representa resultado real de paciente da clínica. Pré-visualização local: as fotos não são enviadas nem salvas. Publique casos reais somente com autorização por escrito do paciente e conforme as normas do CRO. Resultados variam de acordo com cada paciente.</p></div></section>
+
+<section id="equipe" style="background:var(--bg2)"><div class="w"><span class="eyebrow">Equipe</span><h2>Quem cuida do seu sorriso</h2><p class="cap">Nomes da equipe são exemplos — substitua pelos reais.</p>
+<div class="team">
+<div class="person rv" tabindex="0"><div class="ph">HM</div><h3>Dra. Helena Martins</h3><small>CRO-[UF] [Nº] · Implantodontia</small><div class="more">Formação: [Universidade]. Especialização em [área]. Mini currículo de exemplo.</div></div>
+<div class="person rv" tabindex="0"><div class="ph">RC</div><h3>Dr. Rafael Costa</h3><small>CRO-[UF] [Nº] · Ortodontia</small><div class="more">Formação: [Universidade]. Especialização em [área]. Mini currículo de exemplo.</div></div>
+<div class="person rv" tabindex="0"><div class="ph">CD</div><h3>Dra. Camila Duarte</h3><small>CRO-[UF] [Nº] · Odontopediatria</small><div class="more">Formação: [Universidade]. Especialização em [área]. Mini currículo de exemplo.</div></div>
+</div></div></section>
+
+<section id="depoimentos"><div class="w"><span class="eyebrow">Depoimentos</span><h2>Relatos de pacientes</h2>
+<div class="dep">
+<blockquote>“Fui bem acolhida e entendi cada etapa do tratamento.”<cite>Paciente A. (exemplo)</cite></blockquote>
+<blockquote>“Ambiente tranquilo e atendimento atencioso com meu filho.”<cite>Paciente B. (exemplo)</cite></blockquote>
+<blockquote>“Explicaram tudo com clareza, sem pressa.”<cite>Paciente C. (exemplo)</cite></blockquote></div>
+<p class="cap">Relatos individuais. Os resultados variam de paciente para paciente.</p></div></section>
+
+<section style="background:var(--bg2)"><div class="w"><span class="eyebrow">Simulador</span><h2>Qual tratamento é ideal para mim?</h2>
+<div class="box"><div class="bar"><i id="qb"></i></div><div id="q"></div>
+<p class="cap">Esta sugestão é orientativa. A avaliação presencial é indispensável.</p></div></div></section>
+
+<section id="agendar"><div class="w"><span class="eyebrow">Agendamento</span><h2>Agende sua avaliação</h2>
+<div class="box"><div class="bar"><i id="fb"></i></div>
+<div class="st" data-s="0"><label for="ft">Tratamento</label><select id="ft"></select>
+<label>Data</label><div id="cal"></div><input type="hidden" id="fd"><div class="err" id="e1"></div>
+<label>Horário</label><div class="slots" id="sl"></div></div>
+<div class="st" data-s="1" hidden><label for="fn">Nome completo</label><input type="text" id="fn" autocomplete="name"><div class="err" id="e2"></div>
+<label for="fp">Telefone (com DDD)</label><input type="tel" id="fp" autocomplete="tel" placeholder="(11) 90000-0000"><div class="err" id="e3"></div></div>
+<div style="display:flex;gap:10px;margin-top:22px"><button class="btn" id="pv" hidden>Voltar</button><button class="btn p" id="nx">Continuar</button></div></div></div></section>
+
+<section style="background:var(--bg2)"><div class="w"><span class="eyebrow">FAQ</span><h2>Dúvidas frequentes</h2>
+<details><summary>Quanto tempo dura uma consulta?</summary><p>Em geral de 30 a 60 minutos, variando conforme o procedimento.</p></details>
+<details><summary>Vocês atendem convênios?</summary><p>[Informe aqui os convênios aceitos.]</p></details>
+<details><summary>Quais as formas de pagamento?</summary><p>[Informe: cartão, Pix, parcelamento conforme política da clínica.]</p></details>
+<details><summary>Que cuidados tomar após o procedimento?</summary><p>Você recebe orientações personalizadas. Em caso de dúvida, fale conosco.</p></details></div></section>
+
+<section id="blog"><div class="w"><span class="eyebrow">Blog</span><h2>Saúde bucal na prática</h2><div class="slots" style="margin-bottom:18px"><input type="text" id="bs" placeholder="Buscar artigos" aria-label="Buscar artigos" style="max-width:260px"><span class="slots" id="bc"></span></div><div class="grid art" id="bl"></div></div></section><dialog id="ad" class="ar"><div class="rp"><i id="rp"></i></div><div id="ac"></div><a id="al" href="#" style="color:var(--gold2);text-decoration:underline">Ler página completa</a> <button class="btn" id="ax" style="margin-top:14px">Fechar</button></dialog>
+
+<section id="contato" style="background:var(--bg2)"><div class="w two">
+<div><span class="eyebrow">Contato</span><h2>Venha nos visitar</h2>
+<p class="sub">Rua Exemplo, 123 — Cidade/UF<br>(11) 90000-0000 · contato@sorrisosaudavel.com.br<br>Seg a Sex: 8h–18h · Sáb: 8h–12h<br><a href="#" style="color:var(--gold2)">Instagram</a> · <a href="#" style="color:var(--gold2)">Facebook</a></p></div>
+<a class="map" href="https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica+Odontol%C3%B3gica" target="_blank" rel="noopener">📍 Abrir localização no Google Maps<br>(para incorporar o mapa, cole aqui o iframe do seu endereço)</a></div></section>
+</main>
+
+<footer><div class="w"><p><b>Sorriso Saudável Clínica Odontológica</b> — Razão social [XXX] · CNPJ [00.000.000/0000-00]<br>Responsável técnico: Dra. Helena Martins, CRO-[UF] [NÚMERO]</p>
+<p style="margin-top:10px">Os resultados variam de paciente para paciente. Procure sempre uma avaliação profissional. · <a href="#" style="text-decoration:underline">Política de privacidade (LGPD)</a></p></div></footer>
+<a class="wa" href="https://wa.me/5511900000000" aria-label="Falar no WhatsApp" rel="noopener">WA</a>
+<dialog id="dg"><h3 id="dt" style="color:var(--gold2)"></h3><p id="dx" style="margin:12px 0;color:var(--mut)"></p><p id="dm" style="font-size:.9rem"></p><a id="dl" href="#" style="color:var(--gold2);text-decoration:underline">Ver página completa</a><p class="cap">Sem promessa de resultado. Avaliação profissional necessária.</p><button class="btn" id="dc" style="margin-top:14px">Fechar</button></dialog>
+
+<script>
+const SL=["ortodontia", "implantes", "clareamento", "endodontia", "limpeza-e-profilaxia", "lentes-e-facetas", "odontopediatria", "urgencia"],BL=["como-escovar-corretamente", "clareamento-dental-o-que-saber", "primeira-visita-da-crianca-ao-dentista"];const $=s=>document.querySelector(s),T=[
+["Ortodontia","Alinhamento dos dentes com aparelhos fixos ou alinhadores.","Duração: de meses a alguns anos. Cuidado: higiene reforçada."],
+["Implantes","Substituição de dentes ausentes com pino de titânio e prótese.","Duração: varia por caso. Cuidado: acompanhamento periódico."],
+["Clareamento","Redução do amarelado dos dentes sob supervisão.","Duração: algumas sessões. Cuidado: evitar alimentos corantes."],
+["Endodontia","Tratamento de canal para tratar a polpa do dente.","Duração: 1 a 3 sessões. Cuidado: seguir orientações pós-procedimento."],
+["Limpeza e profilaxia","Remoção de placa e tártaro.","Duração: cerca de 40 min. Cuidado: manter rotina de higiene."],
+["Lentes e facetas","Finas lâminas que alteram forma e cor do sorriso.","Duração: 2 a 3 visitas. Cuidado: evitar hábitos que fraturem."],
+["Odontopediatria","Cuidado dedicado a bebês e crianças.","Duração: curta e lúdica. Cuidado: orientar higiene em casa."],
+["Urgência","Atendimento para dor, trauma e quebras.","Duração: conforme a necessidade. Cuidado: contate-nos rapidamente."]];
+$('#tg').innerHTML=T.map((t,i)=>`<button class="card rv" data-i="${i}"><h3>${t[0]}</h3><p>${t[1]}</p></button>`).join('');
+$('#ft').innerHTML=T.map(t=>`<option>${t[0]}</option>`).join('');
+$('#tg').onclick=e=>{const c=e.target.closest('.card');if(!c)return;const t=T[c.dataset.i];$('#dt').textContent=t[0];$('#dx').textContent=t[1];$('#dm').textContent=t[2];$('#dl').href='tratamentos/'+SL[c.dataset.i]+'/index.html';$('#dg').showModal()};
+$('#dc').onclick=()=>$('#dg').close();
+const hd=$('#hd');addEventListener('scroll',()=>{hd.classList.toggle('s',scrollY>20);$('#tooth').style.transform=`translateY(${scrollY*.05}px)`});
+$('#bg').onclick=()=>{const o=$('#mn').classList.toggle('o');$('#bg').classList.toggle('o',o);$('#bg').setAttribute('aria-expanded',o)};
+$('#mn').onclick=e=>{if(e.target.tagName=='A'){$('#mn').classList.remove('o');$('#bg').classList.remove('o')}};
+addEventListener('mousemove',e=>{const x=(e.clientX/innerWidth-.5)*16,y=(e.clientY/innerHeight-.5)*16;$('#tooth').style.transform=`translate(${x}px,${y+scrollY*.05}px) rotate(${x/4}deg)`});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.rv').forEach((el,i)=>{el.style.transitionDelay=(i%4)*80+'ms';io.observe(el)});
+document.querySelectorAll('[data-n]').forEach(el=>{const n=+el.dataset.n;let c=0;const s=()=>{c+=Math.ceil(n/60);if(c>=n)c=n;el.textContent='+'+c;if(c<n)requestAnimationFrame(s)};io.observe(el);new IntersectionObserver((a,o)=>{if(a[0].isIntersecting){s();o.disconnect()}}).observe(el)});
+$('#br').oninput=e=>{const v=e.target.value;$('#bd').style.clipPath=`inset(0 0 0 ${v}%)`;$('#bh').style.left=v+'%'};
+const Q=[["Qual é sua principal queixa?",["Dor ou urgência","Estética do sorriso","Dente faltando","Dentes desalinhados","Rotina/prevenção"]],["Qual é o seu objetivo?",["Aliviar desconforto","Mudar a aparência","Recuperar função","Manutenção"]],["Com que urgência deseja atendimento?",["Hoje","Esta semana","Sem pressa"]],["Quem será atendido?",["Adulto","Criança"]]];
+let qi=0,qa=[];
+function rq(){$('#qb').style.width=qi/Q.length*100+'%';if(qi>=Q.length){const a=qa[0],kid=qa[3]==1;let r=kid?"Odontopediatria":["Urgência","Clareamento ou lentes","Implantes","Ortodontia","Limpeza e profilaxia"][a];$('#q').innerHTML=`<h3>Sugestão: ${r}</h3><p style="color:var(--mut);margin:10px 0">Apenas uma orientação inicial. A avaliação presencial é indispensável.</p><a class="btn p" href="#agendar">Agendar avaliação</a> <button class="btn" onclick="qi=0;qa=[];rq()">Refazer</button>`;return}
+$('#q').innerHTML=`<h3>${Q[qi][0]}</h3>`+Q[qi][1].map((o,i)=>`<button class="opt" data-i="${i}">${o}</button>`).join('')}
+$('#q').onclick=e=>{const b=e.target.closest('.opt');if(b){qa[qi++]=+b.dataset.i;rq()}};rq();
+let st=0,slot='';
+const sl=['08:00','09:30','11:00','14:00','15:30','17:00'];
+$('#sl').innerHTML=sl.map(s=>`<button type="button">${s}</button>`).join('');
+$('#sl').onclick=e=>{if(e.target.tagName=='BUTTON'){slot=e.target.textContent;document.querySelectorAll('#sl button').forEach(b=>b.classList.toggle('on',b==e.target))}};
+$('#fd').min=new Date().toISOString().slice(0,10);
+function chk(id,er,ok,msg){const v=$(id).value.trim(),g=ok(v);$(er).textContent=g?'':msg;$(id).classList.toggle('ok',g);return g}
+$('#fn').oninput=()=>chk('#fn','#e2',v=>v.split(' ').length>1&&v.length>5,'Informe nome e sobrenome.');
+$('#fp').oninput=()=>chk('#fp','#e3',v=>v.replace(/\D/g,'').length>=10,'Telefone inválido.');
+$('#fd').onchange=()=>chk('#fd','#e1',v=>!!v,'Escolha uma data.');
+function show(){document.querySelectorAll('.st').forEach(s=>s.hidden=+s.dataset.s!=st);$('#pv').hidden=!st;$('#nx').textContent=st?'Confirmar pelo WhatsApp':'Continuar';$('#fb').style.width=(st+1)*50+'%'}show();
+$('#pv').onclick=()=>{st=0;show()};
+$('#nx').onclick=()=>{if(!st){if(!chk('#fd','#e1',v=>!!v,'Escolha uma data.'))return;if(!slot){$('#e1').textContent='Escolha um horário.';return}st=1;show()}else{const a=chk('#fn','#e2',v=>v.split(' ').length>1&&v.length>5,'Informe nome e sobrenome.'),b=chk('#fp','#e3',v=>v.replace(/\D/g,'').length>=10,'Telefone inválido.');if(!a||!b)return;const m=`Olá! Gostaria de agendar: ${$('#ft').value}, ${$('#fd').value} às ${slot}. Nome: ${$('#fn').value}. Tel: ${$('#fp').value}.`;open('https://wa.me/5511900000000?text='+encodeURIComponent(m),'_blank','noopener')}};
+
+const cs=[...document.querySelectorAll('#car img')];let ci=0,ct;
+function go(n){cs[ci].classList.remove('on');ci=(n+cs.length)%cs.length;cs[ci].classList.add('on');$('#cc').textContent=cs[ci].alt+' (imagem ilustrativa)'}
+$('#car').onclick=e=>{const b=e.target.closest('.cb');if(b){go(ci+(+b.dataset.d));clearInterval(ct)}};
+if(!matchMedia('(prefers-reduced-motion:reduce)').matches)ct=setInterval(()=>go(ci+1),5000);go(0);
+$('.hero').style.cssText+=`background-image:linear-gradient(90deg,#0f1012 30%,#0f1012c0 70%,#0f101280),url(${cs[0].src});background-size:cover;background-position:center`;
+const A=[["Prevenção",4,"Como escovar corretamente",["Escove os dentes ao menos três vezes ao dia, por cerca de dois minutos, com creme dental com flúor.","Incline a escova a 45° em direção à gengiva e faça movimentos suaves, sem pressionar demais.","Complete a limpeza com fio dental e troque a escova a cada três meses."]],["Estética",5,"Clareamento dental: o que saber",["O clareamento reduz o escurecimento dos dentes, mas só deve ser feito após avaliação profissional.","Pode causar sensibilidade temporária e não é indicado para todos os casos.","Durante o tratamento, evite alimentos que mancham, como café e vinho."]],["Infantil",3,"Primeira visita da criança ao dentista",["Recomenda-se levar a criança quando surgem os primeiros dentes ou até o primeiro ano de vida.","Converse de forma positiva e evite usar a visita como ameaça.","A consulta é rápida e lúdica, com orientações aos pais sobre higiene e alimentação."]]];
+let cat='Todos';
+function rb(){const q=$('#bs').value.toLowerCase();$('#bc').innerHTML=['Todos',...new Set(A.map(a=>a[0]))].map(c=>`<button type="button" class="${c==cat?'on':''}">${c}</button>`).join('');
+$('#bl').innerHTML=A.map((a,i)=>[a,i]).filter(([a])=>(cat=='Todos'||a[0]==cat)&&a[2].toLowerCase().includes(q)).map(([a,i])=>`<button class="card" data-i="${i}"><small>${a[0]} · ${a[1]} min de leitura</small><h3>${a[2]}</h3><p>${a[3][0]}</p></button>`).join('')||'<p class="sub">Nenhum artigo encontrado.</p>'}
+$('#bs').oninput=rb;$('#bc').onclick=e=>{if(e.target.tagName=='BUTTON'){cat=e.target.textContent;rb()}};
+$('#bl').onclick=e=>{const c=e.target.closest('.card');if(!c)return;const a=A[c.dataset.i];$('#ac').innerHTML=`<small style="color:var(--gold)">${a[0]} · ${a[1]} min</small><h2>${a[2]}</h2>`+a[3].map(p=>`<p style="color:var(--mut);margin:12px 0">${p}</p>`).join('')+'<p class="cap">Conteúdo educativo. Procure sempre uma avaliação profissional.</p>';$('#al').href='blog/'+BL[c.dataset.i]+'/index.html';$('#ad').showModal();$('#ad').scrollTop=0};
+$('#ad').onscroll=e=>{const d=e.target;$('#rp').style.width=d.scrollTop/Math.max(1,d.scrollHeight-d.clientHeight)*100+'%'};
+$('#ax').onclick=()=>$('#ad').close();rb();
+let cm=new Date();cm.setDate(1);
+function rc(){const y=cm.getFullYear(),m=cm.getMonth(),f=new Date(y,m,1).getDay(),n=new Date(y,m+1,0).getDate(),t=new Date();t.setHours(0,0,0,0);
+let x=`<div class="ch"><button type="button" class="cn" data-d="-1" aria-label="Mês anterior">‹</button><b>${cm.toLocaleDateString('pt-BR',{month:'long',year:'numeric'})}</b><button type="button" class="cn" data-d="1" aria-label="Próximo mês">›</button></div><div class="cg">`+'DSTQQSS'.split('').map(d=>`<span>${d}</span>`).join('')+'<i></i>'.repeat(f);
+for(let d=1;d<=n;d++){const dt=new Date(y,m,d),iso=`${y}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`,off=dt<t||dt.getDay()==0;x+=`<button type="button" class="cd${iso==$('#fd').value?' on':''}" data-v="${iso}"${off?' disabled':''} aria-label="${d}/${m+1}">${d}</button>`}
+$('#cal').innerHTML=x+'</div>'}
+$('#cal').onclick=e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.d){cm.setMonth(cm.getMonth()+ +b.dataset.d);rc()}else if(b.dataset.v){$('#fd').value=b.dataset.v;$('#e1').textContent='';rc()}};rc();
+
+[['#fa','.a'],['#fb2','.d']].forEach(([i,s])=>$(i).onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{const el=$('.ba '+s);el.textContent='';el.style.cssText+=`background-image:url(${r.result});background-size:cover;background-position:center`};r.readAsDataURL(f)});
+try{if(!window.THREE)throw 0;const cv=$('#c3'),R=new THREE.WebGLRenderer({canvas:cv,alpha:true,antialias:true}),sc=new THREE.Scene(),C=new THREE.PerspectiveCamera(35,1,.1,50),g=new THREE.Group();C.position.set(0,0,8);sc.add(g);
+const m=new THREE.MeshPhysicalMaterial({color:0xfdf8ee,roughness:.25,clearcoat:1,clearcoatRoughness:.15}),cg=new THREE.SphereGeometry(1.2,64,48),p=cg.attributes.position;
+for(let i=0;i<p.count;i++){let x=p.getX(i),y=p.getY(i),z=p.getZ(i);if(y>0)y+=.12*(Math.cos(3*x)+Math.cos(3*z))*y;else y*=.55;p.setY(i,y);p.setX(i,x*1.15)}
+cg.computeVertexNormals();const cr=new THREE.Mesh(cg,m);cr.position.y=.5;g.add(cr);
+[-.55,.55].forEach(x=>{const r=new THREE.Mesh(new THREE.ConeGeometry(.42,1.6,32),m);r.position.set(x,-1.1,0);r.rotation.x=Math.PI;r.rotation.z=x>0?-.12:.12;g.add(r)});
+const k=new THREE.MeshBasicMaterial({color:0x1a1306});[-.4,.4].forEach(x=>{const e=new THREE.Mesh(new THREE.SphereGeometry(.09,16,16),k);e.position.set(x,.75,1.13);g.add(e)});
+const sm=new THREE.Mesh(new THREE.TorusGeometry(.42,.045,12,32,Math.PI),k);sm.rotation.z=Math.PI;sm.position.set(0,.45,1.13);g.add(sm);
+sc.add(new THREE.AmbientLight(0xffffff,.6));const d=new THREE.DirectionalLight(0xffe2b0,1.1);d.position.set(3,4,5);sc.add(d);const r2=new THREE.DirectionalLight(0xd9a85b,.8);r2.position.set(-4,1,-3);sc.add(r2);
+const rs=()=>{const w=cv.clientWidth;R.setPixelRatio(Math.min(devicePixelRatio,2));R.setSize(w,w,false)};
+let mx=0,my=0;const rm=matchMedia('(prefers-reduced-motion:reduce)').matches;addEventListener('mousemove',e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+const L=t=>{g.rotation.y+=((mx*1.2+Math.min(scrollY*.002,.8))-g.rotation.y)*.06;g.rotation.x+=(my*.5-g.rotation.x)*.06;g.position.y=-.15+(rm?0:Math.sin(t/900)*.08);R.render(sc,C);requestAnimationFrame(L)};
+cv.style.display='block';$('#tooth').style.display='none';rs();addEventListener('resize',rs);requestAnimationFrame(L)}catch(e){}
+</script>
+</body>
+</html>
